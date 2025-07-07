@@ -1,3 +1,26 @@
 data/*
 !data/.gitkeep
 !data/eurosat/.gitkeep
+
+# Exclude large model files
+*.pth
+*.pt
+*.ckpt
+*.model
+
+# Exclude large dataset files
+*.zip
+*.tar.gz
+*.tar
+*.rar
+
+# Exclude cache and temporary files
+__pycache__/
+**/__pycache__/
+*.pyc
+*.pyo
+*.pyd
+.Python
+*.so
+.coverage
+.pytest_cache/
